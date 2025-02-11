@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node --watch index.js"
+    "start": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +15,8 @@
     "@google/generative-ai": "^0.21.0",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "mongoose": "^8.10.0"
   }
 }
